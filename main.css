@@ -8,7 +8,7 @@
 }
 
 body {
-background-color: hsl(330, 100%, 98%);
+background-color: rgb(235,222,209);
 }
 
 .container {
@@ -44,38 +44,43 @@ color: hsl(332, 51%, 32%);
 }
 
 p {
-font-size: 16px;  
+font-size: 14px;  
 font-family:  Outfit-Regular;
 }
 
 li {
-font-size: 16px;
+font-size: 14px;
 font-family:  Outfit-Regular;
 }
 
 .preparation {
 border-radius:  10px;
 padding: 5px;
-background-color: hsl(30, 18%, 87%);
+background-color: hsl(330, 100%, 98%);
 }
 
 .preparation h4  {
 padding-left: 25px;
 } 
 
-table {
-width: 300px;
-border-collapse: collapse;
-margin: 20px auto;
-}
-tr, td {
-border: 1px solid #ddd;
-padding: 8px;
-text-align: left;
-}
-th {
-background-color: #f4f4f4;
+#sp {
+color: hsl(332, 51%, 32%);
+font-size: 14px;
+font-family:Outfit-Bold ;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media only screen and (max-width: 768px) {
+  body {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  }  
+  .box {
+  width: 100%;
+  }
+  }
